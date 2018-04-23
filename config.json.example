@@ -1,0 +1,15 @@
+{
+  "github": {
+    "accessToken": "your_access_token",
+    "labels": [
+      "some label"
+    ],
+    "name": "repository_name",
+    "owner": "group_name"
+  },
+  "slack": {
+    "channel": "#general",
+    "title": "It's party time!",
+    "webhookUrl": "https://hooks.slack.com/services/xxx/xxx/xxx"
+  }
+}
