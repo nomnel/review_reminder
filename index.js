@@ -26,6 +26,8 @@ const postToSlack = text => {
   const payload = {
     text: text,
     channel: config.slack.channel,
+    username: config.slack.username,
+    icon_emoji: config.slack.iconEmoji,
   };
 
   fetch(config.slack.webhookUrl, {

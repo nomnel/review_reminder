@@ -9,7 +9,9 @@
   },
   "slack": {
     "channel": "#general",
+    "iconEmoji": ":robot_face:",
     "title": "It's party time!",
+    "username": "bot",
     "webhookUrl": "https://hooks.slack.com/services/xxx/xxx/xxx"
   }
 }
