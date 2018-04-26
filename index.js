@@ -50,6 +50,7 @@ exports.function = (req, res) => {
     return res.text();
   }).then(body => {
     const nodes = JSON.parse(body).data.repository.pullRequests.nodes;
+    if (nodes.length === 0) { return }
     const text = buildText(nodes);
     postToSlack(text);
     res.send('ok');
