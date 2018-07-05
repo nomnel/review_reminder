@@ -1,11 +1,9 @@
 {
   "github": {
     "accessToken": "your_access_token",
-    "labels": [
-      "some label"
-    ],
-    "name": "repository_name",
-    "owner": "group_name"
+    "repositories": [
+      { "owner": "group_name", "name": "repository_name", "labels": [ "some label" ] }
+    ]
   },
   "slack": {
     "channel": "#general",
